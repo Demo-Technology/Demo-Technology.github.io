@@ -1,0 +1,71 @@
+html,
+body {
+    font-family: system-ui, sans-serif;
+    background-color: var(--color-background-primary);
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+main .section {
+    max-width: 1440px;
+    width: 100%;
+}
+
+main section {
+    padding: 8rem 2rem;
+}
+
+main section .section-text-title {
+    font-size: 2.5rem;
+    color: var(--color-text-emphasis);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+main section .section-text-content {
+    font-size: 1rem;
+    color: var(--color-text-primary);
+    font-weight: 350;
+    line-height: 1.5;
+}
+
+main section .section-text-content b {
+    color: var(--color-text-emphasis);
+    font-weight: 350;
+}
+
+main section .section-text-content a {
+    color: var(--color-text-emphasis);
+    font-weight: 350;
+    text-decoration: none;
+}
+
+main section .section-text-content a:hover {
+    text-decoration: underline;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+/*
+ADD MORE GLOBEL STYLES HERE
+*/
+
+:root {
+    --color-text-primary: #02111B;
+    --color-text-emphasis: #3F4045;
+    --color-text-secondary: #30292F;
+    --color-background-secondary: #5D737E;
+    --color-background-primary: #FCFCFC;
+}
