@@ -16,7 +16,6 @@
         filter: blur(4px);
         width: 100%;
         height: 100%;
-
     }
 
 </style>
