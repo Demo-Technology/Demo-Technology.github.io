@@ -59,7 +59,7 @@ button {
 }
 
 /*
-ADD MORE GLOBEL STYLES HERE
+ADD MORE GLOBAL STYLES HERE
 */
 
 :root {
@@ -68,4 +68,59 @@ ADD MORE GLOBEL STYLES HERE
     --color-text-secondary: #30292F;
     --color-background-secondary: #5D737E;
     --color-background-primary: #FCFCFC;
+}
+
+/*
+FONTS
+*/
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('/fonts/FuturaBT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('/fonts/Futura-CondensedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('/fonts/FuturaBT-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('/fonts/FuturaBT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LtCn BT';
+    src: url('/fonts/FuturaBT-LightCondensed.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura BdCn BT';
+    src: url('/fonts/FuturaBT-BoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Bold';
+    src: url('/fonts/Futura-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
