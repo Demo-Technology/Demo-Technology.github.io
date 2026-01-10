@@ -4,13 +4,19 @@
 
 <style>
 
+    .banner
+    {
+        height: 80vh;
+        overflow: hidden;
+    }
     .banner img
     {
-        background-size: cover;
+        object-fit: cover;
+        object-position: center;
         filter: blur(4px);
-
         width: 100%;
-        height: auto;
+        height: 100%;
+
     }
 
 </style>
