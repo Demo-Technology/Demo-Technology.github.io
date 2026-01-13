@@ -9,8 +9,10 @@
 			<h1 use:inView class="section-text-title animate from-top">XR Technology</h1>
 			<p use:inView class="section-text-content animate from-left" style="padding-bottom:3vh;">
 			Extended Reality (XR) is an umbrella term for virtual, augmented, and mixed reality. Our team has collectively <strong>shipped 10+ educational VR titles</strong>,
-			used by thousands of students. Our portfolio includes:</p><br />
+			used by thousands of students. Our portfolio includes work with:</p><br />
 			<ul>
+				<li>- Projection mapping and custom depth tracking systems</li>
+				<br />
 				<li>- SteamVR and OpenXR Frameworks</li>
 				<br />
 				<li>- Custom-built XR hardware</li>
