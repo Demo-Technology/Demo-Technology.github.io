@@ -5,7 +5,7 @@
 <div class="section">
 	<section id="about" class="about">
 		<div class="about-text">
-			<h1 use:inView class="section-text-title animate from-top">Welcome to <font color="black">DeMo Technology</font></h1>
+			<h1 use:inView class="section-text-title animate from-top">Welcome to DeMo Technology</h1>
 			<p use:inView class="section-text-content animate from-left">
 				DeMo Technology, based in the greater Orlando area, bridges the gap between software and hardware. Coming from diverse backgrounds in software, simulation, themed entertainment, and electronics, our multidisciplinary team specializes
 				in putting all of these together to create high-fidelity experiences supported by reliable backend systems.<br /><br />
@@ -35,7 +35,6 @@
 		border-style: solid;
 		max-width: 25rem;
 		max-height: 25rem;
-
 		background-size:cover;
 	}
 

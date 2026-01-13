@@ -13,5 +13,10 @@
     .spacer {
         display: flex;
         justify-content: center;
+        width: 100%;
+    }
+
+    .spacer div {
+        margin: 1rem 0;
     }
 </style>

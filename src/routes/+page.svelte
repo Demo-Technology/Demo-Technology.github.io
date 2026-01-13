@@ -14,9 +14,9 @@
 <main>
     <!-- ADD SECTIONS HERE -->
     <SectionAbout />
-    <Spacer />
+    <Spacer width="80%" color="var(--color-text-primary)" />
     <SectionIoT />
-    <Spacer />
+    <Spacer width="80%" color="var(--color-text-primary)" />
     <SectionCloud />
     <XRBanner />
     <SectionXR />
