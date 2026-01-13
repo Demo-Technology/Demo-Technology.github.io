@@ -19,7 +19,7 @@
 			Cole <b>Mo</b>ntrose
 			</div>
 			<div class="profiletitle">
-			Co-Founder
+			Co-Founder & Software Specialist
 			</div>
 		</div>
 		<div class="profile">
@@ -30,7 +30,7 @@
 			Joseph <b>De</b>Martini
 			</div>
 			<div class="profiletitle">
-			Co-Founder
+			Co-Founder & Hardware Specialist
 			</div>
 		</div>
 	</div>
