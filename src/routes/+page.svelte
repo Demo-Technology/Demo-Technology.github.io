@@ -6,6 +6,7 @@
 	import SectionCloud from '$lib/components/sections/about/SectionCloud.svelte';
 	import XRBanner from '$lib/components/XRBanner.svelte';
 	import SectionXR from '$lib/components/sections/about/SectionXR.svelte';
+	import SectionTeam from '$lib/components/sections/about/SectionTeam.svelte';
 </script>
 
 <Hero />
@@ -19,4 +20,5 @@
     <SectionCloud />
     <XRBanner />
     <SectionXR />
+    <SectionTeam />
 </main>
