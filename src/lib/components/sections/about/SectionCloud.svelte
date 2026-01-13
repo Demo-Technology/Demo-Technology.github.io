@@ -12,7 +12,7 @@
 			Backend Services
 			</div>
 			<div class="desc">
-			
+			AWS, Azure, you name it.
 			</div>
 		</div>
 	</div>
@@ -25,7 +25,7 @@
 			Data Collection
 			</div>
 			<div class="desc">
-			
+			The collection of large datasets are often required in science research, game servers, and many other industrial applications. We are experienced in the collection and processing of vast amounts of realtime data.
 			</div>
 		</div>
 	</div>
@@ -39,7 +39,7 @@
 			</div>
 			<div class="desc">
 			Need dedicated game servers or ranked matchmaking systems?
-			With our years of experience in multiplayer game development, our team can build any system necessary.
+			With our expertise in multiplayer game development, our team can build any system necessary.
 			</div>
 		</div>
 	</div>

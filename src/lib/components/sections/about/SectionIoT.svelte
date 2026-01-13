@@ -45,7 +45,7 @@
 		justify-content: center;
 		align-items: center;
 
-		margin-top: 2vh;
+		margin-top: 4vh;
 		font-size:50px;
 	}
 
