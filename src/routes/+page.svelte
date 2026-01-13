@@ -7,6 +7,7 @@
 	import XRBanner from '$lib/components/XRBanner.svelte';
 	import SectionXR from '$lib/components/sections/about/SectionXR.svelte';
 	import SectionTeam from '$lib/components/sections/about/SectionTeam.svelte';
+	import SectionContact from '$lib/components/sections/about/SectionContact.svelte';
 </script>
 
 <Hero />
@@ -21,4 +22,5 @@
     <XRBanner />
     <SectionXR />
     <SectionTeam />
+    <SectionContact />
 </main>

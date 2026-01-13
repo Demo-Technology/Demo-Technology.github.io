@@ -2,7 +2,7 @@
 	import { inView } from '$lib/actions/animations';
 </script>
 
-<div class="section">
+<section id="cloud" class="section">
 	<div use:inView class="option animate from-left" >
 		<div class="icon">
 			<img src="/images/cloud-icon.png" alt="cloud" />
@@ -43,7 +43,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <div class="section-text">
 	<p use:inView class="section-text-content animate from-left">
@@ -92,14 +92,15 @@
 	.section {
 		width: 100%;
 		display:flex;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 	}
 
 	.option
 	{
-		width: 23vw;
-		height:26vh;
+		width: 26rem;
+		height:15rem;
 
 		margin-left: 1vw;
 		margin-right: 1vw;

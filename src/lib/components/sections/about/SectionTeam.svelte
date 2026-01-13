@@ -4,37 +4,38 @@
 </script>
 
 <div class="section-text">
-	<p use:inView class="tagline animate from-right">
+	<section id="ourteam">
+		<p use:inView class="tagline animate from-right">
 		Meet the &nbsp<span id="demo" style="font-family:Futura Hv BT;">DeMo</span>&nbsp behind DeMo Technologies
-	</p>
-	<br />
-	<Spacer width="80%" height=".1vh" color="gray" />
+		</p>
+		<br />
+		<Spacer width="80%" height=".1vh" color="var(--color-text-primary)" />
 
-	<div id="profiles">
-		<div class="profile">
-			<div class="profileimage">
-				<img src="/images/ColeMontroseProfile.jpg" alt="profile">
+		<div id="profiles">
+			<div class="profile">
+				<div class="profileimage">
+					<img src="/images/ColeMontroseProfile.jpg" alt="profile">
+				</div>
+				<div class="profilename">
+				Cole <b>Mo</b>ntrose
+				</div>
+				<div class="profiletitle">
+				Co-Founder & Software Specialist
+				</div>
 			</div>
-			<div class="profilename">
-			Cole <b>Mo</b>ntrose
-			</div>
-			<div class="profiletitle">
-			Co-Founder & Software Specialist
+			<div class="profile">
+				<div class="profileimage">
+					<img src="/images/JosephDeMartiniProfile.png" alt="profile">
+				</div>
+				<div class="profilename">
+				Joseph <b>De</b>Martini
+				</div>
+				<div class="profiletitle">
+				Co-Founder & Hardware Specialist
+				</div>
 			</div>
 		</div>
-		<div class="profile">
-			<div class="profileimage">
-				<img src="/images/JosephDeMartiniProfile.png" alt="profile">
-			</div>
-			<div class="profilename">
-			Joseph <b>De</b>Martini
-			</div>
-			<div class="profiletitle">
-			Co-Founder & Hardware Specialist
-			</div>
-		</div>
-	</div>
-	
+	</section>
 </div>
 
 <style>
@@ -57,7 +58,9 @@
 		justify-content: center;
 		align-items: center;
 		
-		margin-top: 6vh;
+		text-align:center;
+
+		margin-top: 2rem;
 	}
 
 	.profile
@@ -79,9 +82,10 @@
 	{
 		width:100%;
 		border-radius:100%;
-		border-width: 5px;
-		border-style: ridge;
-		border-color: black;
+		border-width: .5rem;
+		border-style: solid;
+		border-color: var(--color-background-secondary);
+		box-shadow: 1px 1px 1px 1px black; 
 	}
 
 	#demo
@@ -111,12 +115,38 @@
 		width:100%;
 		font-size: 22px;
 
+		margin-bottom: 7rem;
+	}
+
+	#ourteam
+	{
 		display:flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
 	@media (max-width: 74rem) {
-		
+		.tagline
+		{
+			font-size: 18px;
+		}
+		#profiles
+		{
+			flex-direction: column;
+			width: 100%;
+		}
+		.profile
+		{
+			width:100%;
+			margin-bottom: 2rem;
+		}
+		.profiletitle
+		{
+			width:100%;
+		}
+		.profilename
+		{
+			font-size:2rem;
+		}
 	}
 </style>

@@ -3,7 +3,7 @@
 	import Spacer from '$lib/components/Spacer.svelte';
 </script>
 
-<div class="section">
+<section id="xrtechnology" class="section">
 	<section id="about" class="about">
 		<div class="about-text">
 			<h1 use:inView class="section-text-title animate from-top">XR Technology</h1>
@@ -28,7 +28,7 @@
 			alt="Profile"
 		/>
 	</section>
-</div>
+</section>
 
 <style>
 	h1 {
