@@ -6,7 +6,7 @@
 
 	onMount(() => {
 		const onScroll = () => {
-			atTop = window.scrollY < 300;
+			atTop = window.scrollY < 100;
 		};
 
 		window.addEventListener('scroll', onScroll);
@@ -82,6 +82,18 @@
 
 	.nav-bar.transparent .nav-bar-links a:hover {
 		color: var(--color-background-secondary);
+	}
+
+    .nav-bar.transparent .nav-bar-hamburger span {
+		background: var(--color-background-primary);
+	}
+
+    .nav-bar.transparent .nav-bar-hamburger:hover span {
+		background: var(--color-background-secondary);
+	}
+
+    .nav-bar.transparent .nav-bar-links.mobile {
+		background-color: var(--color-text-primary);
 	}
 
 	.nav-bar-logo {
@@ -170,7 +182,9 @@
 		gap: 1.5rem;
 		margin-top: 2.5rem;
 		padding: 1.5rem;
-		transition: opacity 0.2s ease;
+		transition: 
+            opacity 0.2s ease,
+            background-color 0.4s ease;
 	}
 
 	.nav-bar-links.mobile.open {
