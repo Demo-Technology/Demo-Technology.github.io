@@ -3,114 +3,119 @@
 </script>
 
 <div class="section">
-	<div use:inView class="option animate from-left" >
-		<div class="icon">
-			<img src="/images/sensor.jpg" alt="hardware" />
+	<section id="iot" class="iot">
+		<div use:inView class="animate from-top">
+			<h1 class="section-text-title">IoT & Electronics</h1>
+			<p class="section-text-content">
+				With our experience in building industry-level hardware, our team can prototype electronic
+				systems to remotely collect data from sensors, prototype custom hardware devices and printed
+				circuit boards, or even parallel process large amounts of data using FPGAs.
+			</p>
 		</div>
-		<div class="title">
-			Sensor Integration
+		<div class="cards">
+			<div use:inView class="option animate from-left">
+				<div class="icon">
+					<img src="/images/sensor.jpg" alt="hardware" />
+				</div>
+				<div class="title">Sensor Integration</div>
+			</div>
+			<div use:inView class="option animate from-top">
+				<div class="icon">
+					<img src="/images/hardware.jpg" alt="hardware" />
+				</div>
+				<div class="title">Hardware Prototyping</div>
+			</div>
+			<div use:inView class="option animate from-right">
+				<div class="icon">
+					<img src="/images/groundstation.jpg" alt="hardware" />
+				</div>
+				<div class="title">Ground Stations</div>
+			</div>
 		</div>
-	</div>
-	<div use:inView class="option animate from-above">
-		<div class="icon">
-			<img src="/images/hardware.jpg" alt="hardware" />
+		<div use:inView class="tagline animate">
+			<h1>
+				The possibilities are endless — and we're here to create.
+			</h1>
 		</div>
-		<div class="title">
-			Hardware Prototyping
-		</div>
-	</div>
-	<div use:inView class="option animate from-right">
-		<div class="icon">
-			<img src="/images/groundstation.jpg" alt="hardware" />
-		</div>
-		<div class="title">
-			Ground Stations
-		</div>
-	</div>
-</div>
-
-<div class="section-text">
-	<p use:inView class="section-text-content animate from-left">
-		With our experience in building industry-level hardware, our team can prototype electronic systems to remotely collect data from sensors, prototype custom hardware devices and printed circuit boards, or even parallel process large amounts of data using FPGAs.
-	</p>
-	<p use:inView class="tagline animate from-right">
-		The possibilities are endless — and we're here to create.
-	</p>
+	</section>
 </div>
 
 <style>
-	.tagline
-	{
-		display:flex;
+	.section-text-title {
+		text-align: center;
+	}
+
+	.iot {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 4rem;
+	}
+
+	.tagline {
+		display: flex;
 		justify-content: center;
 		align-items: center;
-
-		margin-top: 4vh;
-		font-size:50px;
+		background-color: var(--color-text-primary);
+		padding: 4rem 0;
+		width: 100vw;
+		margin: 0 calc(-50vw + 50%);
 	}
 
-	.section-text
-	{
-		max-width:1280px;
-		font-size: 22px;
+	.tagline h1 {
+		color: var(--color-background-primary);
+		font-size: 3rem;
+		text-align: center;
 	}
 
-	.section {
+	.cards {
 		width: 100%;
-		display:flex;
+		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 	}
 
-	.option
-	{
-		width: 23vw;
-		height:26vh;
-
-		margin-left: 1vw;
-		margin-right: 1vw;
-		margin-top: 1vw;
-
+	.option {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-
-		box-shadow: 2px 2px 2px 2px black;
+		background-color: var(--color-text-primary);
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+		width: 24rem;
+		height: 16rem;
+		margin: 1rem;
 	}
 
-	.icon
-	{
-		width:100%;
-		height:75%;
+	.icon {
+		width: 100%;
+		height: 75%;
 		overflow: hidden;
 	}
 
-	.icon img
-	{
-		width:100%;
+	.icon img {
+		width: 100%;
 		background-size: cover;
 	}
 
-	.title
-	{
-		height:25%;
-		width:100%;
+	.title {
+		height: 25%;
+		width: 100%;
 
 		box-shadow: 2px 2px 2px 2px black;
 
-		display:flex;
+		display: flex;
 		justify-content: center;
 		align-items: center;
 
 		font-size: 20px;
 
 		border-radius: 2px;
+		color: var(--color-background-primary);
 	}
 
 	@media (max-width: 74rem) {
-		.section
-		{
+		.section {
 			flex-direction: column;
 		}
 	}

@@ -25,6 +25,7 @@
 	</a>
 	<nav>
 		<div class="nav-bar-links desktop">
+            <a href="#about">About</a>
 			<a href="#iot">IoT & Electronics</a>
 			<a href="#cloud">Cloud Services</a>
 			<a href="#xrtechnology">XR Technology</a>
@@ -43,6 +44,7 @@
 			<span></span>
 		</button>
 		<div class="nav-bar-links mobile" class:open>
+            <a href="#about" on:click={() => (open = false)}>About</a>
 			<a href="#iot" on:click={() => (open = false)}>IoT & Electronics</a>
 			<a href="#cloud" on:click={() => (open = false)}>Cloud Services</a>
 			<a href="#xrtechnology" on:click={() => (open = false)}>XR Technology</a>
