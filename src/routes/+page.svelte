@@ -5,6 +5,7 @@
 	import Nav from '$lib/components/Nav.svelte';
 	import Spacer from '$lib/components/Spacer.svelte';
 	import SectionIoT from '$lib/components/sections/about/SectionIoT.svelte';
+	import SectionCloud from '$lib/components/sections/about/SectionCloud.svelte';
 </script>
 
 <Hero />
@@ -15,4 +16,5 @@
     <Spacer />
     <SectionIoT />
     <Spacer />
+    <SectionCloud />
 </main>
