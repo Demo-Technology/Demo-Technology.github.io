@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: system-ui, sans-serif;
+    font-family: 'Futura Bk BT', system-ui, sans-serif;
     background-color: var(--color-background-primary);
     scroll-behavior: smooth;
     max-width: 100%;
