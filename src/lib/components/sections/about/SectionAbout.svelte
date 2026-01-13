@@ -5,11 +5,10 @@
 <div class="section">
 	<section id="about" class="about">
 		<div class="about-text">
-			<h1 use:inView class="section-text-title animate from-top">Who We Are</h1>
+			<h1 use:inView class="section-text-title animate from-top">2 guys with a crazy idea.</h1>
 			<p use:inView class="section-text-content animate from-left">
-				We are Demo Technology, a blah blah blah blah blah blah blah blah blah blah blah blah blah
-				blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-				blah blah blah blah blah blah blah blah blah blah blah blah blah company.
+				DeMo Technology, based in the greater Orlando area, bridges the gap between software and hardware. Coming from diverse backgrounds in software, simulation, themed entertainment, and electronics, our multidisciplinary team specializes
+				in putting all of these together to create high-fidelity experiences supported by reliable backend systems.
 			</p>
 		</div>
 		<img
