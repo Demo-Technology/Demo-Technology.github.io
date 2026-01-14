@@ -7,7 +7,7 @@
 <div class="section">
 	<section id="ourteam" class="ourteam">
 		<h1 use:inView class="section-text-title animate from-top">
-			Meet the &nbsp<span class="demo">De-Mo</span>&nbsp behind DeMo Technologies
+			Meet the &nbsp<span class="demo">De-Mo</span>&nbsp behind DeMo Technology
 		</h1>
 		<Spacer width="80%" height="0.1rem" color="var(--color-dark-primary)" />
 		<div class="profiles">

@@ -53,7 +53,7 @@
 	.background {
 		display: grid;
 		place-items: center;
-		min-height: 85vh;
+		min-height: 100vh;
         background-color: var(--color-dark-primary);
 	}
 

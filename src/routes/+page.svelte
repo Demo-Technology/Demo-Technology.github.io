@@ -16,15 +16,14 @@
 <Hero />
 
 <main>
-	<!-- ADD SECTIONS HERE -->
 	<SectionAbout />
 	<BannerImage height="35rem" img="/images/banners/computerhardwarebanner.jpg" position="center" />
 	<SectionIoT />
     <BannerText>Building IoT solutions that connect the physical and digital worlds.</BannerText>
 	<SectionCloud />
-	<BannerImage height="32rem" img="/images/banners/gamejambanner.jpg" position="center" />
+	<BannerImage height="32rem" img="/images/banners/gamejambanner.jpg" position="center right" />
 	<SectionXR />
-	<BannerVideo height="28rem" src="/videos/banners/tinkerbanner.mp4" />
+	<BannerVideo height="30rem" src="/videos/banners/tinkerbanner.mp4" />
 	<SectionTeam />
 	<SectionContact />
 </main>
