@@ -5,7 +5,6 @@ body {
     scroll-behavior: smooth;
     max-width: 100%;
     overflow-x: hidden;
-    overscroll-behavior-y: none;
 }
 
 main {
