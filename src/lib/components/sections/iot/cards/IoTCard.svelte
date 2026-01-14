@@ -6,7 +6,7 @@
 	export let alt;
 </script>
 
-<div {id} use:use class={`${classes}`}>
+<div {id} use:use class={`card ${classes}`}>
 	<div class="option">
 		<div class="icon">
 			<img src={img} {alt} />
@@ -16,15 +16,19 @@
 </div>
 
 <style>
-	.option {
+	.card {
+		max-width: 24rem;
 		width: 100%;
+		height: auto;
+	}
+
+	.option {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		background-color: var(--color-dark-primary);
 		box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
-		max-width: 24rem;
 		height: 16rem;
 		margin: 1rem;
 		transition: transform 0.2s;
