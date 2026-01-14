@@ -14,7 +14,7 @@
 			<ProfileIcon
 				use={inView}
 				classes="animate from-bottom"
-				img="/images/JosephDeMartiniProfile.png"
+				img="/images/team/JosephDeMartiniProfile.png"
 				alt="Joseph DeMartini"
 				name="Joseph DeMartini"
 				title="Co-Founder & Hardware Specialist"
@@ -22,7 +22,7 @@
 			<ProfileIcon
 				use={inView}
 				classes="animate from-bottom"
-				img="/images/ColeMontroseProfile.jpg"
+				img="/images/team/ColeMontroseProfile.jpg"
 				alt="Cole Montrose"
 				name="Cole Montrose"
 				title="Co-Founder & Software Specialist"
