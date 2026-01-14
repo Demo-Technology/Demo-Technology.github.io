@@ -29,6 +29,8 @@
 	}
 
 	img {
+		width: 100%;
+		height: auto;
 		border-color: var(--color-dark-primary);
 		border-radius: 0.25rem;
 		border-width: 0.3rem;
@@ -44,7 +46,7 @@
 
 	.about {
 		display: grid;
-		grid-template-columns: 1fr 35rem;
+		grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 		justify-items: center;
 		align-items: center;
 		gap: 4rem;
@@ -61,6 +63,7 @@
 	}
 
 	.about-text {
+		width: 100%;
 		max-width: 52rem;
 	}
 </style>

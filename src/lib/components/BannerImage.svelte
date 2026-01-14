@@ -24,4 +24,10 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+
+	@media only screen and (max-width: 74rem) {
+		.parallax {
+			background-attachment: scroll;
+		}
+	}
 </style>

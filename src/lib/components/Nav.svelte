@@ -219,7 +219,7 @@
 		background: var(--color-dark-secondary);
 	}
 
-	@media (max-width: 70rem) {
+	@media (max-width: 74rem) {
 		.nav-bar-links.desktop {
 			display: none;
 		}
