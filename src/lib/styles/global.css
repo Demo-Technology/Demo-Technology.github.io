@@ -64,10 +64,6 @@ button {
     background: none;
 }
 
-/*
-ADD MORE GLOBAL STYLES HERE
-*/
-
 :root {
     --color-dark-primary: #02111B;
         --color-dark-secondary: #3F4045;
@@ -75,10 +71,6 @@ ADD MORE GLOBAL STYLES HERE
         --color-light-primary: #FCFCFC;
         --color-light-secondary: #5D737E;
 }
-
-/*
-FONTS
-*/
 
 @font-face {
     font-family: 'Futura Md BT';
