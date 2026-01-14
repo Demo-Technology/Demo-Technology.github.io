@@ -21,7 +21,8 @@
 
 <style>
 	.option {
-		width: 24rem;
+		width: 100%;
+		max-width: 24rem;
 		height: 15rem;
 
 		margin-left: 1vw;
