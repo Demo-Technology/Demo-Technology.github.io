@@ -5,7 +5,7 @@
 <div class="section">
 	<section id="about" class="about">
 		<div class="about-text">
-			<h1 use:inView class="section-text-title animate from-top">Welcome to DeMo Technology</h1>
+			<h1 use:inView class="section-text-title animate from-top">Who We Are</h1>
 			<p use:inView class="section-text-content animate from-left">
 				DeMo Technology, based in the greater Orlando area, bridges the gap between software and hardware. Coming from diverse backgrounds in software, simulation, themed entertainment, and electronics, our multidisciplinary team specializes
 				in putting all of these together to create high-fidelity experiences supported by reliable backend systems.<br /><br />
@@ -29,13 +29,13 @@
 	}
 
 	img {
-		border-color: var(--color-background-alternate);
-		border-radius: 0vw;
+		border-color: var(--color-dark-primary);
+		border-radius: 0.25rem;
 		border-width: 0.3rem;
 		border-style: solid;
-		max-width: 25rem;
-		max-height: 25rem;
-		background-size:cover;
+		max-width: 34rem;
+		max-height: 34rem;
+		background-size: cover;
 	}
 
 	.section {
@@ -44,8 +44,9 @@
 
 	.about {
 		display: grid;
-		grid-template-columns: 1fr 30rem;
+		grid-template-columns: 1fr 35rem;
 		justify-items: center;
+		align-items: center;
 		gap: 4rem;
 	}
 
@@ -61,10 +62,5 @@
 
 	.about-text {
 		max-width: 52rem;
-
-		display:flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items:flex-start;
 	}
 </style>

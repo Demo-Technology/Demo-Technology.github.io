@@ -8,8 +8,11 @@
 		<div class="about-text">
 			<h1 use:inView class="section-text-title animate from-top">XR Technology</h1>
 			<p use:inView class="section-text-content animate from-left" style="padding-bottom:3vh;">
-			Extended Reality (XR) is an umbrella term for virtual, augmented, and mixed reality. Our team has collectively <strong>shipped 10+ educational VR titles</strong>,
-			used by thousands of students. Our portfolio includes work with:</p><br />
+				Extended Reality (XR) is an umbrella term for virtual, augmented, and mixed reality. Our
+				team has collectively <strong>shipped 10+ educational VR titles</strong>, used by thousands
+				of students. Our portfolio includes work with:
+			</p>
+			<br />
 			<ul>
 				<li>- Projection mapping and custom depth tracking systems</li>
 				<br />
@@ -20,7 +23,7 @@
 				<li>- Motion platform integration and custom safety systems</li>
 				<br />
 				<li>- Custom VR/AR applications for Valve Index, Varjo, Quest, Magic Leap headsets</li>
-			<br />
+				<br />
 			</ul>
 		</div>
 		<img
@@ -38,14 +41,14 @@
 	}
 
 	img {
-		border-color: var(--color-background-alternate);
+		border-color: var(--color-dark-primary);
 		border-radius: 0vw;
 		border-width: 0.3rem;
 		border-style: solid;
 		max-width: 25rem;
 		max-height: 25rem;
 
-		background-size:cover;
+		background-size: cover;
 	}
 
 	.section {
@@ -72,9 +75,9 @@
 	.about-text {
 		max-width: 52rem;
 
-		display:flex;
+		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items:flex-start;
+		align-items: flex-start;
 	}
 </style>

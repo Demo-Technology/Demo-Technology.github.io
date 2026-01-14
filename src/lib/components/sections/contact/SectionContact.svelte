@@ -129,7 +129,7 @@ label
 .formcolumn
 {
     width:40%;
-    color:var(--color-text-primary);
+    color:var(--color-dark-primary);
 }
 
 .servicebox
@@ -199,7 +199,7 @@ textarea
     
     border-style:solid;
     border-radius:1rem;
-    border-color:var(--color-background-secondary);
+    border-color:var(--color-light-secondary);
     border-width:.25vw;
 
     display:flex;

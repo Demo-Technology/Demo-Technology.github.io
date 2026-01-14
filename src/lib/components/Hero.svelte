@@ -6,9 +6,9 @@
 <section class="background">
     <div class="el">
         <div class="text">
-            <h1 use:inView class="animate from-top">The Possibilities are Endless and We're Here to Create</h1>
-            <Spacer width="80%" color="var(--color-background-primary)" />
-            <h2 use:inView class="animate from-bottom">DeMo Technology</h2>
+            <h1 use:inView class="animate from-top">The Possibilities are Endless, and We're Here to Create</h1>
+            <!--<Spacer width="80%" color="var(--color-light-primary)" />-->
+            <h2 use:inView class="animate from-right">DeMo Technology</h2>
         </div>
     </div>
 </section>
@@ -19,26 +19,27 @@
 		z-index: 1;
         display: flex;
         flex-direction: column;
-        gap: 3rem;
-        padding: 0 1rem;
+        gap: 4rem;
+        padding: 0 4rem;
+		max-width: 1440px;
     }
 
 	.text h1 {
-		text-align: center;
+		text-align: left;
 		position: relative;
-		font-size: clamp(3rem, 12vw, 6rem);
+		font-size: clamp(3rem, 5vw, 8rem);
 		font-weight: 500;
-		color: var(--color-background-primary);
-		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+		text-transform: uppercase;
+		color: var(--color-light-primary);
 	}
 
 	.text h2 {
-		text-align: center;
+		text-align: right;
 		position: relative;
 		font-size: clamp(1.5rem, 4vw, 3rem);
-		font-weight: 300;
-		color: var(--color-background-primary);
-		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		font-weight: 900;
+		text-transform: uppercase;
+		color: var(--color-light-secondary);
 	}
 
 	* {
@@ -52,8 +53,8 @@
 	.background {
 		display: grid;
 		place-items: center;
-		min-height: 100vh;
-        background-color: var(--color-text-primary);
+		min-height: 85vh;
+        background-color: var(--color-dark-primary);
 	}
 
 	.el {

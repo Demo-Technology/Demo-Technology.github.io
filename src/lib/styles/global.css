@@ -1,7 +1,7 @@
 html,
 body {
     font-family: 'Futura Bk BT', system-ui, sans-serif;
-    background-color: var(--color-background-primary);
+    background-color: var(--color-light-primary);
     scroll-behavior: smooth;
     max-width: 100%;
     overflow-x: hidden;
@@ -13,7 +13,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 main .section {
@@ -22,30 +22,31 @@ main .section {
 }
 
 main section {
-    padding: 5rem 2rem;
+    padding: 8rem 2rem;
 }
 
 main section .section-text-title {
-    font-size: 2.5rem;
-    color: var(--color-text-emphasis);
-    font-weight: 500;
+    font-size: 2.75rem;
+        color: var(--color-dark-primary);
+        font-weight: 900;
+        text-transform: uppercase;
     margin-bottom: 2rem;
 }
 
 main section .section-text-content {
-    font-size: 1rem;
-    color: var(--color-text-primary);
+    font-size: 1.25rem;
+        color: var(--color-dark-secondary);
     font-weight: 350;
     line-height: 1.5;
 }
 
 main section .section-text-content b {
-    color: var(--color-text-emphasis);
+    color: var(--color-dark-primary);
     font-weight: 350;
 }
 
 main section .section-text-content a {
-    color: var(--color-text-emphasis);
+    color: var(--color-dark-primary);
     font-weight: 350;
     text-decoration: none;
 }
@@ -64,11 +65,11 @@ ADD MORE GLOBAL STYLES HERE
 */
 
 :root {
-    --color-text-primary: #02111B;
-    --color-text-emphasis: #3F4045;
-    --color-text-secondary: #30292F;
-    --color-background-secondary: #5D737E;
-    --color-background-primary: #FCFCFC;
+    --color-dark-primary: #02111B;
+        --color-dark-secondary: #3F4045;
+        --color-dark-tertiary: #30292F;
+        --color-light-primary: #FCFCFC;
+        --color-light-secondary: #5D737E;
 }
 
 /*

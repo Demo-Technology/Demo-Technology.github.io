@@ -9,7 +9,7 @@
 		Meet the &nbsp<span id="demo" style="font-family:Futura Hv BT;">DeMo</span>&nbsp behind DeMo Technologies
 		</p>
 		<br />
-		<Spacer width="80%" height=".1vh" color="var(--color-text-primary)" />
+		<Spacer width="80%" height=".1vh" color="var(--color-dark-primary)" />
 
 		<div id="profiles">
 			<div class="profile">
@@ -84,7 +84,7 @@
 		border-radius:100%;
 		border-width: .5rem;
 		border-style: solid;
-		border-color: var(--color-background-secondary);
+		border-color: var(--color-light-secondary);
 		box-shadow: 1px 1px 1px 1px black; 
 	}
 

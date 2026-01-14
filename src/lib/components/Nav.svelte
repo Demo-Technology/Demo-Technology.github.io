@@ -20,8 +20,8 @@
 
 <div class="nav-bar" class:transparent={atTop}>
 	<a href="/" class="nav-bar-logo">
-		<img class="nav-bar-logo-default" src={`/images/${atTop ? 'w_logo' : 'b_logo'}.png`} alt="Company Logo" style="filter: drop-shadow(0 0 5px white);" />
-        <img class="nav-bar-logo-glow" src={`/images/${atTop ? 'w_logo_glow' : 'b_logo_glow'}.png`} alt="Company Logo" style="filter: drop-shadow(0 0 5px white);" />
+		<img class="nav-bar-logo-default" src={`/images/logos/${atTop ? 'w_logo' : 'b_logo'}.png`} alt="Company Logo" style="filter: drop-shadow(0 0 5px white);" />
+        <img class="nav-bar-logo-glow" src={`/images/logos/${atTop ? 'w_logo_glow' : 'b_logo_glow'}.png`} alt="Company Logo" style="filter: drop-shadow(0 0 5px white);" />
 	</a>
 	<nav>
 		<div class="nav-bar-links desktop">
@@ -59,8 +59,8 @@
 		position: fixed;
 		width: 100%;
 		z-index: 10;
-		background-color: var(--color-background-primary);
-		border-bottom: 1px solid var(--color-text-emphasis);
+		background-color: var(--color-light-primary);
+		border-bottom: 1px solid var(--color-dark-secondary);
 		box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
 		display: flex;
 		flex-direction: row;
@@ -79,37 +79,37 @@
 	}
 
     .nav-bar.transparent .nav-bar-links a {
-		color: var(--color-background-primary);
+		color: var(--color-light-primary);
 	}
 
 	.nav-bar.transparent .nav-bar-links a:hover {
-		color: var(--color-background-secondary);
+		color: var(--color-light-secondary);
 	}
 
     .nav-bar.transparent .nav-bar-hamburger span {
-		background: var(--color-background-primary);
+		background: var(--color-light-primary);
 	}
 
     .nav-bar.transparent .nav-bar-hamburger:hover span {
-		background: var(--color-background-secondary);
+		background: var(--color-light-secondary);
 	}
 
     .nav-bar.transparent .nav-bar-links.mobile {
-		background-color: var(--color-text-primary);
+		background-color: var(--color-dark-primary);
 	}
 
 	.nav-bar-logo {
 		text-decoration: none;
 		margin-left: 1.5rem;
-		padding: 0.5rem 0;
+		padding: 1rem 0;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 	}
 
 	.nav-bar-logo img {
-		max-width: 3rem;
-		max-height: 3rem;
+		max-width: 4rem;
+		max-height: 4rem;
 	}
 
     .nav-bar-logo .nav-bar-logo-default {
@@ -136,15 +136,15 @@
 
 	.nav-bar-links a {
 		position: relative;
-		color: var(--color-text-primary);
+		color: var(--color-dark-primary);
 		text-decoration: none;
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 		font-weight: 100;
 		transition: color 0.4s;
 	}
 
 	.nav-bar-links a:hover {
-		color: var(--color-text-emphasis);
+		color: var(--color-dark-secondary);
 	}
 
 	.nav-bar-links a::after {
@@ -177,8 +177,8 @@
 		pointer-events: none;
 		flex-direction: column;
 		align-items: flex-end;
-		background-color: var(--color-background-primary);
-		border: 1px solid var(--color-text-emphasis);
+		background-color: var(--color-light-primary);
+		border: 1px solid var(--color-dark-secondary);
 		box-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
 		border-radius: 10px;
 		gap: 1.5rem;
@@ -198,28 +198,28 @@
 		display: none;
 		flex-direction: column;
 		margin-right: 1.5rem;
-		gap: 0.3rem;
+		gap: 0.35rem;
 		justify-content: center;
 		cursor: pointer;
 	}
 
 	.nav-bar-hamburger span {
-		width: 1.5rem;
-		height: 0.15rem;
+		width: 1.75rem;
+		height: 0.25rem;
 		border-radius: 1rem;
-		background: var(--color-text-primary);
+		background: var(--color-dark-primary);
 		transition: background 0.4s;
 	}
 
 	.nav-bar-hamburger:hover span {
-		background: var(--color-text-emphasis);
+		background: var(--color-dark-secondary);
 	}
 
 	.nav-bar-hamburger.open span {
-		background: var(--color-text-emphasis);
+		background: var(--color-dark-secondary);
 	}
 
-	@media (max-width: 60rem) {
+	@media (max-width: 70rem) {
 		.nav-bar-links.desktop {
 			display: none;
 		}
@@ -233,120 +233,3 @@
 		}
 	}
 </style>
-
-<!--<style>
-
-#navbar
-{
-    width:100%;
-    height:80px;
-    background-color: var(--color-background-primary);
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-
-    /* Stick to top of page */
-    position: relative;
-    top: 0;
-}
-
-.logo a
-{
-    display: flex;
-    align-items: center;
-}
-
-.logo
-{
-    height: 100%;
-    padding-left:1vw;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo img
-{
-    height: 85%;
-    position: absolute;
-}
-
-#logoreg
-{
-    opacity: 1;
-    z-index:5;
-    transition: .5s;
-}
-
-#logoglow
-{
-    opacity: 0;
-    transition: .5s;
-}
-
-.logo:hover #logoreg
-{
-    opacity:0;
-    transition: .5s;
-}
-
-.logo:hover #logoglow
-{
-    opacity:1;
-    transition: .5s;
-}
-
-.navigation
-{
-    font-family: "Futura Hv BT";
-
-    position: absolute;
-    right: 0;
-    padding-right: 50px;
-
-    height: 100%;
-
-    display: flex;
-}
-
-.navigation a
-{
-    color: var(--color-text-primary);
-    text-decoration: none;
-    font-size: 1.2em;
-    
-    position: relative;
-    margin-left: 50px;
-    min-width:150px;
-    height: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.navigation a:hover .scaler
-{
-    width: 100%;
-    transition: .4s;
-    opacity: 1;
-}
-
-.scaler
-{
-    background-color: var(--color-text-primary);
-    width: 0%;
-    height: 6%;
-    opacity: 0.25;
-
-    position: absolute;
-    bottom: 0;
-
-    transition: .4s;
-}
-
-</style>-->
