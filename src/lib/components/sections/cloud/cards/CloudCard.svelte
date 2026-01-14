@@ -23,7 +23,7 @@
 	.option {
 		width: 100%;
 		max-width: 24rem;
-		height: 15rem;
+		height: 20rem;
 
 		margin-left: 1vw;
 		margin-right: 1vw;
