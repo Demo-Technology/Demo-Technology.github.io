@@ -17,6 +17,6 @@
     }
 
     .spacer div {
-        margin: 1rem 0;
+        margin: 0;
     }
 </style>

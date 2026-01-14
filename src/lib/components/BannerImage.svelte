@@ -16,8 +16,10 @@
 	}
 
     .parallax {
+		position: absolute;
         inset: 0;
-        position: absolute;
+		width: 100%;
+		height: 100%;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;

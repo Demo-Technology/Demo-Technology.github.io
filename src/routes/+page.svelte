@@ -10,6 +10,7 @@
 	import SectionContact from '$lib/components/sections/contact/SectionContact.svelte';
 	import BannerImage from '$lib/components/BannerImage.svelte';
 	import BannerText from '$lib/components/BannerText.svelte';
+	import BannerVideo from '$lib/components/BannerVideo.svelte';
 </script>
 
 <Hero />
@@ -21,24 +22,9 @@
 	<SectionIoT />
     <BannerText>Building IoT solutions that connect the physical and digital worlds.</BannerText>
 	<SectionCloud />
-	<BannerImage height="30rem" img="/images/banners/gamejambanner.jpg" position="center" />
+	<BannerImage height="32rem" img="/images/banners/gamejambanner.jpg" position="center" />
 	<SectionXR />
+	<BannerVideo height="28rem" src="/videos/banners/tinkerbanner.mp4" />
 	<SectionTeam />
 	<SectionContact />
 </main>
-
-<style>
-	.parallax {
-		/* The image used */
-		background-image: url('img_parallax.jpg');
-
-		/* Set a specific height */
-		min-height: 500px;
-
-		/* Create the parallax scrolling effect */
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-</style>

@@ -16,11 +16,12 @@
 
 <style>
 	.profile {
-		width: 50%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+        text-align: center;
 	}
 
 	img {
@@ -30,9 +31,14 @@
 		border-style: solid;
 		border-color: var(--color-dark-primary);
 		box-shadow: 1px 1px 1px 1px black;
-		max-width: 20rem;
-		max-height: 20rem;
+		width: 20rem;
+		height: 20rem;
+        transition: transform 0.2s;
 	}
+
+    img:hover {
+        transform: scale(1.05);
+    }
 
 	h2 {
 		margin-top: 1rem;
