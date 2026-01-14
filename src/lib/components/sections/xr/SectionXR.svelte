@@ -1,39 +1,40 @@
 <script lang="ts">
 	import { inView } from '$lib/actions/animations';
-	import Spacer from '$lib/components/Spacer.svelte';
 </script>
 
-<section id="xrtechnology" class="section">
-	<section id="about" class="about">
-		<div class="about-text">
-			<h1 use:inView class="section-text-title animate from-top">XR Technology</h1>
-			<p use:inView class="section-text-content animate from-left" style="padding-bottom:3vh;">
-				Extended Reality (XR) is an umbrella term for virtual, augmented, and mixed reality. Our
-				team has collectively <strong>shipped 10+ educational VR titles</strong>, used by thousands
-				of students. Our portfolio includes work with:
-			</p>
-			<br />
-			<ul>
-				<li>- Projection mapping and custom depth tracking systems</li>
-				<br />
-				<li>- SteamVR and OpenXR Frameworks</li>
-				<br />
-				<li>- Custom-built XR hardware</li>
-				<br />
-				<li>- Motion platform integration and custom safety systems</li>
-				<br />
-				<li>- Custom VR/AR applications for Valve Index, Varjo, Quest, Magic Leap headsets</li>
-				<br />
-			</ul>
-		</div>
+<div class="section">
+	<section id="xrtechnology" class="xr">
 		<img
 			use:inView
-			class="about-img glow-sm animate from-right"
-			src="/images/XRPhoto.jpg"
+			class="xr-img glow-sm animate from-left"
+			src="/images/xr/XRPhoto.jpg"
 			alt="Profile"
 		/>
+		<div class="xr-text">
+			<h1 use:inView class="section-text-title animate from-top">XR Technology</h1>
+			<div use:inView class="animate from-right">
+				<p class="section-text-content" style="margin-bottom: 0.5rem;">
+					Extended Reality (XR) is an umbrella term for virtual, augmented, and mixed reality. Our
+					team has collectively <strong>shipped 10+ educational VR titles</strong>, used by thousands
+					of students. Our portfolio includes work with:
+				</p>
+				<br />
+				<ul class="section-text-content sm">
+					<li>- Projection mapping and custom depth tracking systems</li>
+					<br />
+					<li>- SteamVR and OpenXR Frameworks</li>
+					<br />
+					<li>- Custom-built XR hardware</li>
+					<br />
+					<li>- Motion platform integration and custom safety systems</li>
+					<br />
+					<li>- Custom VR/AR applications for Valve Index, Varjo, Quest, Magic Leap headsets</li>
+					<br />
+				</ul>
+			</div>
+		</div>
 	</section>
-</section>
+</div>
 
 <style>
 	h1 {
@@ -42,12 +43,11 @@
 
 	img {
 		border-color: var(--color-dark-primary);
-		border-radius: 0vw;
+		border-radius: 0.25rem;
 		border-width: 0.3rem;
 		border-style: solid;
 		max-width: 25rem;
 		max-height: 25rem;
-
 		background-size: cover;
 	}
 
@@ -55,24 +55,25 @@
 		max-width: 1280px;
 	}
 
-	.about {
+	.xr {
 		display: grid;
-		grid-template-columns: 1fr 30rem;
+		grid-template-columns: 30rem 1fr;
 		justify-items: center;
+		align-items: center;
 		gap: 4rem;
 	}
 
 	@media (max-width: 74rem) {
-		.about {
+		.xr {
 			grid-template-columns: 1fr;
 		}
 
-		.about-img {
+		.xr-img {
 			order: -1;
 		}
 	}
 
-	.about-text {
+	.xr-text {
 		max-width: 52rem;
 
 		display: flex;

@@ -1,18 +1,34 @@
 <script lang="ts">
 	import { inView } from '$lib/actions/animations';
 	import Spacer from '$lib/components/Spacer.svelte';
+	import ProfileIcon from './icons/ProfileIcon.svelte';
 </script>
 
-<div class="section-text">
-	<section id="ourteam">
-		<p use:inView class="tagline animate from-right">
-		Meet the &nbsp<span id="demo" style="font-family:Futura Hv BT;">DeMo</span>&nbsp behind DeMo Technologies
-		</p>
-		<br />
-		<Spacer width="80%" height=".1vh" color="var(--color-dark-primary)" />
-
+<div class="section">
+	<section id="ourteam" class="ourteam">
+		<h1 use:inView class="section-text-title animate from-top">
+			Meet the &nbsp<span id="demo" style="font-family:Futura Hv BT;">DeMo</span>&nbsp behind DeMo Technologies
+		</h1>
+		<Spacer width="80%" height="0.1rem" color="var(--color-dark-primary)" />
 		<div id="profiles">
-			<div class="profile">
+			<ProfileIcon
+				use={inView}
+				classes="animate from-bottom"
+				img="/images/ColeMontroseProfile.jpg"
+				alt="Cole Montrose"
+				name="Cole Montrose"
+				title="Co-Founder & Software Specialist"
+			/>
+			<ProfileIcon
+				use={inView}
+				classes="animate from-bottom"
+				img="/images/JosephDeMartiniProfile.png"
+				alt="Joseph DeMartini"
+				name="Joseph DeMartini"
+				title="Co-Founder & Hardware Specialist"
+			/>
+
+			<!--<div class="profile">
 				<div class="profileimage">
 					<img src="/images/ColeMontroseProfile.jpg" alt="profile">
 				</div>
@@ -33,7 +49,7 @@
 				<div class="profiletitle">
 				Co-Founder & Hardware Specialist
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</section>
 </div>
@@ -108,14 +124,6 @@
 
 		margin-top: 4vh;
 		font-size:50px;
-	}
-
-	.section-text
-	{
-		width:100%;
-		font-size: 22px;
-
-		margin-bottom: 7rem;
 	}
 
 	#ourteam

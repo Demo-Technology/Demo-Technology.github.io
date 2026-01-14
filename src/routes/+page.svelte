@@ -8,7 +8,7 @@
 	import SectionXR from '$lib/components/sections/xr/SectionXR.svelte';
 	import SectionTeam from '$lib/components/sections/team/SectionTeam.svelte';
 	import SectionContact from '$lib/components/sections/contact/SectionContact.svelte';
-	import Banner from '$lib/components/Banner.svelte';
+	import BannerImage from '$lib/components/BannerImage.svelte';
 	import BannerText from '$lib/components/BannerText.svelte';
 </script>
 
@@ -17,11 +17,11 @@
 <main>
 	<!-- ADD SECTIONS HERE -->
 	<SectionAbout />
-	<Banner height="35rem" img="/images/banners/computerhardwarebanner.jpg" position="center" />
+	<BannerImage height="35rem" img="/images/banners/computerhardwarebanner.jpg" position="center" />
 	<SectionIoT />
     <BannerText>Building IoT solutions that connect the physical and digital worlds.</BannerText>
 	<SectionCloud />
-	<XRBanner />
+	<BannerImage height="30rem" img="/images/banners/gamejambanner.jpg" position="center" />
 	<SectionXR />
 	<SectionTeam />
 	<SectionContact />

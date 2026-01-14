@@ -19,7 +19,7 @@
 			</IoTCard>
 			<IoTCard
 				use={inView}
-				classes="animate from-top"
+				classes="animate from-bottom"
 				img="/images/iot/hardware.jpg"
 				alt="hardware"
 			>
