@@ -6,27 +6,32 @@
 
 <div class="section">
 	<section id="ourteam" class="ourteam">
-		<h1 use:inView class="section-text-title animate from-top">
-			Meet the &nbsp<span class="demo">De-Mo</span>&nbsp behind DeMo Technology
+		<h1 use:inView class="demoparent section-text-title animate from-top">
+			Meet the &nbsp<span class="de">De</span>-<span class="mo">Mo</span>&nbsp behind DeMo Technology
 		</h1>
 		<Spacer width="80%" height="0.1rem" color="var(--color-dark-primary)" />
 		<div class="profiles">
-			<ProfileIcon
-				use={inView}
-				classes="animate from-bottom"
-				img="/images/team/JosephDeMartiniProfile.png"
-				alt="Joseph DeMartini"
-				name="Joseph DeMartini"
-				title="Co-Founder & Hardware Specialist"
-			/>
-			<ProfileIcon
-				use={inView}
-				classes="animate from-bottom"
-				img="/images/team/ColeMontroseProfile.jpg"
-				alt="Cole Montrose"
-				name="Cole Montrose"
-				title="Co-Founder & Software Specialist"
-			/>
+			<div id="josephprofile">
+				<ProfileIcon
+					use={inView}
+					classes="animate from-bottom"
+					img="/images/team/JosephDeMartiniProfile.png"
+					alt="Joseph DeMartini"
+					name="Joseph DeMartini"
+					title="Co-Founder & Hardware Specialist"
+				/>
+			</div>
+			<div id="coleprofile">
+				<ProfileIcon
+					use={inView}
+					classes="animate from-bottom"
+					img="/images/team/ColeMontroseProfile.jpg"
+					alt="Cole Montrose"
+					name="Cole Montrose"
+					title="Co-Founder & Software Specialist"
+					id="coleprofile"
+				/>
+			</div>
 		</div>
 	</section>
 </div>
@@ -52,7 +57,37 @@
 		gap: 10rem;
 	}
 
-	.demo
+	.de
+	{
+		font-family:Futura Hv BT;
+		text-transform: none;
+	}
+
+	.demoparent:has(.de:hover) ~ .profiles #josephprofile
+	{
+		transform:scale(1.1);
+		transition:.25s;
+	}
+
+	.demoparent:has(.mo:hover) ~ .profiles #coleprofile
+	{
+		transform:scale(1.1);
+		transition:.25s;
+	}
+
+	#josephprofile
+	{
+		transform:scale(1);
+		transition:.25s;
+	}
+
+	#coleprofile
+	{
+		transform:scale(1);
+		transition:.25s;
+	}
+
+	.mo
 	{
 		font-family:Futura Hv BT;
 		text-transform: none;

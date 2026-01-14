@@ -15,7 +15,7 @@
 		</div>
 		<div class="cards">
 			<IoTCard use={inView} classes="animate from-left" img="/images/iot/sensor.jpg" alt="hardware">
-				Sensor Integration
+				Sensor Integration/NFC Technology
 			</IoTCard>
 			<IoTCard
 				use={inView}

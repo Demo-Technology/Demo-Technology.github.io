@@ -23,7 +23,7 @@
 	<SectionCloud />
 	<BannerImage height="32rem" img="/images/banners/gamejambanner.jpg" position="center right" />
 	<SectionXR />
-	<BannerVideo height="30rem" src="/videos/banners/tinkerbanner.mp4" />
+	<BannerVideo height="30rem" src="/videos/banners/tinkerbanner" />
 	<SectionTeam />
 	<SectionContact />
 </main>

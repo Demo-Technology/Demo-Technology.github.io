@@ -8,7 +8,7 @@
 	export let alt;
 </script>
 
-<div {id} use:use class={`profile ${classes}`}>
+<div id={id} use:use class={`profile ${classes}`}>
 	<img src={img} {alt} />
 	<h2>{name}</h2>
 	<span>{title}</span>
