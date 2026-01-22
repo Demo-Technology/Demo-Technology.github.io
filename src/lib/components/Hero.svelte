@@ -8,7 +8,7 @@
         <div class="text">
             <h1 use:inView class="animate from-top">The Possibilities are Endless, and We're Here to Create</h1>
             <!--<Spacer width="80%" color="var(--color-light-primary)" />-->
-            <h2 use:inView class="animate from-right">DeMo Technology</h2>
+            <h2 use:inView class="animate from-right">Demo Technology</h2>
         </div>
     </div>
 </section>

@@ -7,7 +7,7 @@
 		<div class="about-text">
 			<h1 use:inView class="section-text-title animate from-top">Who We Are</h1>
 			<p use:inView class="section-text-content animate from-left">
-				DeMo Technology, based in the greater Orlando area, bridges the gap between software and hardware. Coming from diverse backgrounds in software, simulation, themed entertainment, and electronics, our multidisciplinary team specializes
+				Demo Technology, based in the greater Orlando area, bridges the gap between software and hardware. Coming from diverse backgrounds in software, simulation, themed entertainment, and electronics, our multidisciplinary team specializes
 				in putting all of these together to create high-fidelity experiences supported by reliable backend systems.<br /><br />
 				
 				Our team has worked in the research space for years — collaborating with subject-matter experts to create both embedded systems and virtual educational experiences related to space exploration, satellite control, and aviation. Under Demo Technology, our team brings this research-oriented mindset

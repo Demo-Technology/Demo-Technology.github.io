@@ -8,7 +8,7 @@
         <div id="logosection">
             <div id="logo">
                 <img src="/images/logos/w_logo.png" alt="logo" />
-                <h1 class="section-text-title">DEMO TECHNOLOGY</h1>
+                <h1 class="section-text-title">Demo Technology</h1>
             </div>
             <p id="serving" class="section-text-title">
                 Serving the greater Orlando area and beyond.
@@ -24,6 +24,10 @@
 </div>
 
 <style>
+
+    h1 {
+        text-transform: uppercase;
+    }
 
     .footer
     {
